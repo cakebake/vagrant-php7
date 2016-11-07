@@ -26,7 +26,7 @@ See vagrant documentation.
 Configuration
 -------------
 
-You could configure the whole system with **ansible** and **Vagrantfile**. Take a look at `Vagrantfile` and `puphpet/config.yml` to change vm definition. After changes reload your VM with `vagrant reload --provision`.
+Take a look at `Vagrantfile` and `puphpet/config.yml` to change vm definition. After changes reload your VM with `vagrant reload --provision`.
 
 XDebug is predefined for best interaction with partial encrypted code with ioncube. You could change XDebug settings in `puphpet/config.yml` and reload your VM with `vagrant reload --provision`.
 
