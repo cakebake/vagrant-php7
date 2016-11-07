@@ -1,1 +1,6 @@
+.idea
+.vagrant
+htdocs/index.html
+htdocs/index.html
 puphpet/config-custom.yaml
+*rsa*

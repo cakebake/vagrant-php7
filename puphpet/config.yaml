@@ -21,7 +21,7 @@ vagrantfile:
                 machines:
                     vflm_rx3pehj4sble:
                         id: cakebakePHP7
-                        hostname: cakebake.dev
+                        hostname: php7.cakebake.dev
                         network:
                             private_network: 192.168.33.99
                             forwarded_port:
@@ -206,9 +206,9 @@ apache:
         - headers
     vhosts:
         av_5fkkjd4js9nx:
-            servername: cakebake.dev
+            servername: php7.cakebake.dev
             serveraliases:
-                - www.cakebake.dev
+                - www.php7.cakebake.dev
             docroot: /var/www/html
             port: '80'
             setenv:

@@ -52,3 +52,10 @@ alias rm='rm -i'
 alias mv='mv -iv'
 alias grep='grep --color=auto -in'
 alias ..='cd ..'
+
+# xdebug phpstorm
+export XDEBUG_CONFIG="idekey=PHPSTORM"
+export PHP_IDE_CONFIG="serverName=localhost"
+
+# move to htdocs folder
+cd /var/www/html
